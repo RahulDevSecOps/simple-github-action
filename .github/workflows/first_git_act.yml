@@ -1,0 +1,9 @@
+name: Run the shell command
+on: [push]
+
+jobs:
+    run-shell-command:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Echo a string
+                run: echo "This is my firxt script to learn CI/CD pipline"
