@@ -6,4 +6,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Echo a string
-                run: echo "This is my firxt script to learn CI/CD pipline"
+             run: echo "This is my firxt script to learn CI/CD pipline"
